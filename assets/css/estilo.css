@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.tenis-img {
+    position: fixed;
+    padding-left: 230px;
+    padding-top: 250px;
+ 
+}
+
+.tenis-img img {
+    width: 700px;
+   
+}
+
+section .esquerda {
+    width: 35%;
+    margin: 0;
+    background-color: #c4333f;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.esquerda--area {
+    width: 85%;
+    height: 81%;
+    box-shadow: 2px 1px 3px #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #c4333f;
+
+}
+
+.esquerda--logo {
+    padding: 30px 50px;
+
+}
+
+.logo--area img {
+    width: 100px;
+    
+}
+
+.social-area {
+    display: flex;
+    margin-top: 590px;
+    margin-left: 50px;
+
+    
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #c4333f;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+
+section .direita {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.direita--area {
+    width: 90%;
+    height: auto;
+    box-shadow: 2px 1px 3px #000;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
+.menu {
+    display: flex;
+    flex: 1;
+    justify-content:flex-end;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+    padding-left: 50px;
+
+}
+.menu ul {
+    display: flex;
+   
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu li a:hover,
+.menu .active a {
+    color: #c4333f;
+}
+
+.title {
+    padding-top: 50px;
+    line-height: 5px;
+}
+
+.title h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #c4333f;
+}
+
+.title h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #3b3b3b;
+    text-shadow: 1px 0px 5px #000;
+   
+}
+
+div span {
+    color: #c4333f;
+} 
+
+.linha {
+    width: 50px;
+    height: 5px;
+    margin-left: 300px;
+    background-color: #c4333f;
+
+}
+
+.linha2 {
+    width: 30px;
+    height: 5px;
+    margin-left: 300px;
+    margin-top: 10px;
+    background-color: #c4333f;
+
+}
+
+.texto {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4b4b4b;
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 30px;
+}
+
+.button {
+    background-color: #c4333f;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 950px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px #000;
+
+}
+.button a {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blocos--area {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    margin-right: 50px;
+
+}
+
+.bloco--item1,
+.bloco--item2,
+.bloco--item3 {
+    background-color: #ccc;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 20px 20px; 
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px #000;
+    
+   
+   
+}
+
+.bloco--item1 img,
+.bloco--item2 img,
+.bloco--item3 img {
+    width: 150px;
+    height: auto;
+    margin-top: -80px;
+    margin-right: 50px;
+    transform: rotate(-45deg);
+    
+
+    
+}
+
+.texto--desc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
+    color: #3b3b3b;
+    
+   
+}
+
+.texto--desc span {
+    color: #c4333f;
+}
